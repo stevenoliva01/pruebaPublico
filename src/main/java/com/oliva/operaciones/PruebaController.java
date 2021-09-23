@@ -7,6 +7,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class PruebaController {
 	@RequestMapping(value="/hola")
 	public String suma() {
+		System.out.println("Agregando una Línea");
 		return "Hola Mundo";
 	}
 }
